@@ -1,0 +1,43 @@
+:global {
+  .inline .rdt {
+    display: inline-block;
+    vertical-align: middle;
+  }
+
+  * {
+    direction: rtl;
+  }
+
+
+  .ui.celled.table tr td:first-child, .ui.celled.table tr th:first-child {
+      border-left: 1px solid rgba(34,36,38,.1) !important;
+  }
+
+  .ui.input input{
+    text-align: right !important;
+  }
+
+  .ui.modal>.actions{
+    text-align: left !important;
+  }
+
+  .ui.modal{
+    text-align: right !important;
+  }
+
+  .ui.form .inline.fields .inline.field {
+      display: flex;
+  }
+
+  .ui.form .inline.fields .inline.field .label{
+      line-height: inherit;
+  }
+
+  .ui.selection.dropdown .menu>.item .text{
+    white-space: pre-wrap;
+  }
+
+  .ui.grid>.row{
+    padding-bottom: 0 !important;
+  }
+}
